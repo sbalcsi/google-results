@@ -4,18 +4,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header">
-        <img src="" alt="Google logo">
+    <div id="header">
+        <div class="header-left">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        <div class="header-left">
         <form action="#">
             <input type="text" name="searchbox">
         </form>
-        <a href="#"><i>
-
-        </i></a>
-        <a href="#"><i>
-
-        </i></a>
-    </header>
+        </div>
+        <div class="header-right">
+        <a href="#"><i></i>Apps</a>
+        </div>
+        <div>
+        <a href="#"><i></i>Log In</a>
+        </div>
+    </div>
     <div id="search-options">
      <a href="#">All</a>
      <a href="#">Images</a>
@@ -26,24 +30,85 @@
      <a href="#">Settings</a>
      <a href="#">Tools</a>    
     </div>
-    <p>About 1000000000 search reuslts (0.0001 seconds)</p>
+    <p id="res-no">About 1000000000 search reuslts (0.0001 seconds)</p>
     <div class="result">
-    <p>www.thisisthelinktotheresult.com/result</p>
-    <h1><a href="#">Result1</a></h1>
+    <a class="res-link" href="#">www.thisisthelinktotheresult.com/result</a>
+    <h1 class="res-name"><a href="#">Result 1</a></h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum ipsam quis. Modi quidem, eius, iure nam quasi ullam illo nobis accusamus blanditiis quibusdam consectetur laborum hic laudantium eaque ipsa?
     </p>
     </div>
-    <h1>Searches related</h1>
-    <div>
-        <a href="#">Related1</a>
-        <a href="#">Related1</a>
-        <a href="#">Related1</a>
-        <a href="#">Related1</a>
-        <a href="#">Related1</a>
-        <a href="#">Related1</a>
+    <div class="result">
+    <a class="res-link" href="#">www.thisisthelinktotheresult.com/result</a>
+    <h1 class="res-name"><a href="#">Result 2</a></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum ipsam quis. Modi quidem, eius, iure nam quasi ullam illo nobis accusamus blanditiis quibusdam consectetur laborum hic laudantium eaque ipsa?
+    </p>
     </div>
+    <div class="result">
+    <a class="res-link" href="#">www.thisisthelinktotheresult.com/result</a>
+    <h1 class="res-name"><a href="#">Result 3</a></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum ipsam quis. Modi quidem, eius, iure nam quasi ullam illo nobis accusamus blanditiis quibusdam consectetur laborum hic laudantium eaque ipsa?
+    </p>
+    </div>
+    <div class="result">
+    <a class="res-link" href="#">www.thisisthelinktotheresult.com/result</a>
+    <h1 class="res-name"><a href="#">Result 4</a></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum ipsam quis. Modi quidem, eius, iure nam quasi ullam illo nobis accusamus blanditiis quibusdam consectetur laborum hic laudantium eaque ipsa?
+    </p>
+    </div>
+    <div class="result">
+    <a class="res-link" href="#">www.thisisthelinktotheresult.com/result</a>
+    <h1 class="res-name"><a href="#">Result 5</a></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum ipsam quis. Modi quidem, eius, iure nam quasi ullam illo nobis accusamus blanditiis quibusdam consectetur laborum hic laudantium eaque ipsa?
+    </p>
+    </div>
+    <div class="result">
+    <a class="res-link" href="#">www.thisisthelinktotheresult.com/result</a>
+    <h1 class="res-name"><a href="#">Result 6</a></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum ipsam quis. Modi quidem, eius, iure nam quasi ullam illo nobis accusamus blanditiis quibusdam consectetur laborum hic laudantium eaque ipsa?
+    </p>
+    </div>
+    <h1 id="rel-head">Searches related</h1>
+    <div id="related">
+        <div id="rel-1">
+            <p><a href="#">Related 1</a></p>
+            <p><a href="#">Related 2</a></p>
+            <p><a href="#">Related 3</a></p>
+            <p><a href="#">Related 4</a></p>
+        </div>
+        <div id="rel-2">
+            <p><a href="#">Related 5</a>
+            <p><a href="#">Related 6</a>
+            <p><a href="#">Related 7</a>
+            <p><a href="#">Related 8</a>
+    </div>
+</div>
+
+<ul id="res-pages">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>Next page</li>
+</ul>    
+
     <footer>
-        
+ <ul>
+     <li>Hungary</li>
+     <li>Use accurate location</li>
+     <li>More information</li>
+ </ul>
+ <ul>
+     <li>Help</li>
+     <li>Send feedback</li>
+     <li>Privacy policy</li>
+     <li>General terms and conditions</li>
+ </ul>       
     </footer>
 
 </body>

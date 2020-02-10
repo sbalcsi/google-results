@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 20px;
+
+}
+
+#header img {
+    height: 25px
+}
+
+#header div {
+   margin-right: 20px;
+   display: block;
+}
+
+#header input {
+    width: 600px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#header .header-right {
+    margin-left: auto;
+}
+
+#search-options {
+    border-bottom: solid 1px #bfbbbb ;
+    padding-bottom: 10px;
+    min-width: 700px;
+}
+
+#search-options :first-child {
+    margin-left: 114px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+
+#search-options a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #70757a;
+}
+
+#search-options a :hover {
+    color: lightskyblue;
+}
+
+#res-no {
+    margin-left: 114px;
+    padding-top: 10px;
+    color: #70757a;
+}
+
+.result {
+    margin-left: 114px;
+    padding-top: 25px;
+    width: 800px
+}
+
+.res-link {
+    color: #70757a;
+    font-size: 14px;
+    }
+
+.result a:hover {
+        cursor: pointer;
+    }
+
+.res-name {
+        font: 18px blue;
+        padding: 3px 0px;
+        font-weight: normal;
+    }
+
+    .res-name a:hover {
+        text-decoration: underline;
+    }
+
+    .result p{
+       line-height: 1.5em;
+    }
+
+#rel-head {
+    margin-left: 114px;
+    font-size: 18px;
+    padding: 25px 0;
+    font-weight: normal;
+}
+
+#related {
+    margin-left: 114px;
+    display: flex;
+    flex-direction: column;
+    display: inline;
+}
+
+#rel-1 {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#rel-2 {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+#related p {
+    padding: 5px 0; 
+}
+
+#related a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#res-pages {
+    margin: 20px 0;
+    margin-left: 194px;
+}
+
+#res-pages li {
+    list-style: none;
+    display: inline;
+    padding-right: 5px;
+}
+
+#res-pages li:last-child {
+    padding-left: 10px;
+}
+
+footer {
+   margin-top: 10px;
+    color: #70757a;
+    background-color: #f5f5f5
+    
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    }
+
+    footer ul {
+        padding: 10px 0;
+        min-width: 500px;
+        margin-left: 114px;
+
+    }
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
